@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0cap;
+    padding: 0cap;
+   
+    box-sizing: border-box
+    ;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85,85,85);
+}
+a,
+.btn{
+    transition: all 300ms ease;
+}
+nav,
+.navlinks{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: end;
+    
+}
+
+nav{
+    justify-content: space-around;
+    align-items: self-start;
+    height: 17vh;
+    text-align: start;
+    flex-direction: column;
+}
+
+.navlinks{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+    text-align: end;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: #fff;
+
+}
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: 181,181,181;
+}
+.name{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.name:hover{
+    cursor: default;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#desktop-nav{
+    display: flex;
+}
+
+
+
+
+#Skills{
+    width: 70%;
+    border: gray 1px solid;
+    padding: 3rem;
+    margin: 50px;
+    border-radius: 30px;
+    justify-content: start;
+    transition: 0.5s ease-in-out;
+    
+
+}
+#Skills:hover{
+    transform: translateY(-10px);
+}
+#phone{
+    display: flex;
+    align-items: center;
+}
+
+#image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    font-weight: 550;
+    
+}
+.icon{
+    height: 20px;
+    width:20px
+}
+#contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.facetext{
+    display: inline-block;
+    height: 100px;
+    ;
+   
+
+}
+#face{
+    padding-top: 75px;
+    height: 400px;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.socials-container{
+    display: flex;
+    justify-content: center ;
+}
+.facetext{
+    line-height: 25px;
+    
+}
